@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaire</title>
+</head>
+<form action="index.php" method="post">
+	<label for="Nom">Nom</label>
+	<input id="Nom" type="test" placeholder="votre nom"required><br>
+	<label for="Prénom">Prénom</label>
+	<input id="Prénom" type="test" placeholder="votre Prénom"required><br>
+</form>
+<form method="get" action="">
+     <p>
+    <label for="wilaya">Dans quel wilaya habitez-vous ?</label>
+    <select name="wilaya" id="wilaya">
+    <option value="alger">Alger</option>
+    <option value="oran">Oran</option>
+    <option value="Constantine">Constantine</option>
+    <option value="Annaba">Annaba</option>
+    <option value="Jijel">Jijel</option>
+    <option value="Mila">Mila</option>
+
+    </select>
+    </p>
+</form>
+<form action="index.php" method="post">
+	<label for="email">Email</label>
+	<input id="Email" type="test" placeholder="Email"required><br>
+	<label for="Numéro">Numéro</label>
+	<input id="Numéro" type="tel" placeholder="00-00-00-00-00"required max="10 pattern="[0]{1}[5-7]{1}[0-9]{8}"><br>
+	<label for="date">Date de Naissance</label>
+	<input id="Date" type="date"required><br>
+	<label for="Formation" >Formation</label><br>
+<textarea id="Foramtion" required rows="10" cols="35" placeholder="Remplissez vos formations"></textarea><br>
+<P><H2>Langues</H2></P>
+ <br>
+<input id="Français" type="checkbox" value="Français">
+<label for="Français">Français</label><br>
+<input id="IntermediaireF" type="radio" name="fr">
+<label for="IntermediaireF">Intermediaire </label>
+<input id="AvancéF" type="radio" value="AvancéF" name="fr">
+<label for="AvancéF">Avancé </label>
+<input id="MatérnelleF" type="radio" name="fr">
+<label for="MatérnelleF">Matérnelle </label><br>
+
+
+<input id="Anglais" type="checkbox" value="Anglais">
+<label for="Anglais">Anglais</label><br>
+<input id="IntermediaireA" type="radio" name="ang">
+<label for="IntermediaireA">Intermediaire </label>
+<input id="AvancéA" type="radio" value="AvancéA" name="ang">
+<label for="AvancéA">Avancé </label>
+<input id="MatérnelleA" type="radio" name="ang">
+<label for="MatérnelleA">Matérnelle </label><br>
+
+<input id="Arab" type="checkbox" value="Arab">
+<label for="Arab">Arab</label><br>
+<input id="IntermediaireAr" type="radio" name="arb">
+<label for="IntermediaireAr">Intermediaire </label>
+<input id="AvancéAr" type="radio" value="AvancéAr" name="arb">
+<label for="AvancéA">Avancé </label>
+<input id="MatérnelleAr" type="radio" name="arb">
+<label for="MatérnelleAr">Matérnelle </label><br>
+
+<input id="Autre" type="checkbox" value="Autre" name="aut">
+<label for="Autre">Autre</label><br>
+<input id="autres" type="text" ><br>
+<input id="IntermédiaireAutre" type="radio" name="aut">
+<label for="IntermdiaireAutre">Intermediaire </label><
+<input id="AvancéAr" type="radio" value="AvancéAr" name="aut">
+<label for="AvancéA">Avancé </label>
+<input id="MatérnelleAutre" type="radio" name="aut">
+<label for="MatérnelleAutre">Matérnelle </label><br>
+<h2><label for="Compétences" >Compétences</label><br></h2>
+<textarea id="Compétences" required rows="10" cols="35" placeholder="Remplissez vos formations"></textarea><br>
+<label for="Ecole">Ecole</label>
+<select id="Ecole">
+<option value="ESGEN">ESGEN</option>
+<option value="ESC">ESC</option>
+<option value="EHEC">EHEC</option>
+<option value="ENSSEA">ENSSEA</option>
+<option value="AUTREE">Autre</option>
+
+</select>
+
+
+</p>
+<input type="submit">
+<input type="File" value="Envoyer" src="">
+<input type="reset" >
+
+	
+</form>
+
+</body>
+</html>
